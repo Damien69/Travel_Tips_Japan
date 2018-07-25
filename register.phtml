@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <script src="utilities/utilities.js"></script>
+        <title>Travel Tips - Japon</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+			<div class="container">
+				<section>
+					<a href="index.php">
+						<img class="logo" src="img/logo.png" alt="Logo de Travel Tips - Japan" />
+					</a>
+				</section>
+				<nav>
+    		<a href="register.phtml">Créér un compte</a>
+    		<a href="login.phtml">Connexion</a>
+    		</nav>
+			</div>
+		</header>
+		<!--MAIN CONTENT-->
+<h2>Création d'un compte client</h2>
+
+<form action="application/register.php" method="POST">
+
+
+	<fieldset>
+		<legend> Informations personnelles </legend>
+		<ul>
+			<li>
+				<label for="lastName">Nom :</label>
+				<input id="lastName" type="text" name="lastName" required>
+			</li>
+			<li>
+				<label for="firstName">Prénom :</label>
+				<input id="firstName" type="text" name="firstName" required>
+			</li>
+	        <li>
+	            <label for="email">E-mail :</label>
+	            <input id="email" type="text" name="email" required>
+	        </li>
+	        <li>
+	            <label for="password">Mot de passe :</label>
+	            <input id="password" type="password" name="password" data-length="8" required>
+	        </li>
+		</ul>
+	</fieldset>
+
+	<ul>
+		<li>
+			<input type="submit" value="Créer le compte">
+			<a href="index.php">Annuler</a>
+		</li>
+	</ul>
+</form>
+		</main>
+		<!--FOOTER-->
+		<footer id="copyright">
+				   <img alt="Propriété de Damien Rosina" style="border-width:0" src="img/logo.png" /></a><br /><span>Ce projet est la réalisation de Damien Rosina</span>
+		</footer>
+    </body>
+</html>
