@@ -6,12 +6,9 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <script src="utilities/utilities.js"></script>
-        <title>Travel Tips - Japon</title>
-        <link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Travel Tips - Japan</title>
     </head>
     <body>
         <header>
@@ -23,14 +20,14 @@
 				</section>
 				 <?php 
 			if(isset($_SESSION['Id'])):?>
-			<p>Bonjour <?=$_SESSION['FirstName']?></p>
+			<p class='welcome'>ようこそ <?=htmlspecialchars($_SESSION['FirstName'])?> !</p>
 			<nav>
 				<a href="carte.php">Carte</a>
-				<a href="traducteur_devises.php">Traducteur et Devises</a>
+				<a href="traducteur_devises.php">Traducteur et devises</a>
 				<a href="galerie.php">Galerie</a>
 			</nav>
 			<form action="application/logout.php" method="POST">
-			<button type="submit" name="submit">Déconnexion</button>
+			<button type="submit" name="submit" class='deconnexion'>Déconnexion</button>
 			</form>
     		<?php 
    			else :

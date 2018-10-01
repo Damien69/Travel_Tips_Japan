@@ -5,13 +5,11 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/normalize.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0" >
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <script src="utilities/utilities.js"></script>
-        <title>Travel Tips - Japon</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Travel Tips - Japan</title>
     </head>
 	<?php 
 			if(isset($_SESSION['Id'])):?>
@@ -29,18 +27,44 @@
 					<a href="galerie.php">Galerie</a>
 				</nav>
 				<form action="application/logout.php" method="POST">
-			<button type="submit" name="submit">Déconnexion</button>
-			</form>
+					<button type="submit" name="submit" class='deconnexion'>Déconnexion</button>
+				</form>
 			</div>
 		</header>
 		<!--MAIN CONTENT-->
 		<main class="container">
-			<p>Ici sera la galerie</p>
+			<img id="mainImage" src="img/galerie/image1.jpg"/>
+    		<br />
+    		<div id="imagesGalerie" onclick="changeImageOnClick(event)" mouseover='scrollTo(image_id)'>
+				<img class="imgStyle" src="img/galerie/image1.jpg" />
+        		<img class="imgStyle" src="img/galerie/image2.jpg" />
+        		<img class="imgStyle" src="img/galerie/image3.jpg" />
+        		<img class="imgStyle" src="img/galerie/image4.jpg" />
+        		<img class="imgStyle" src="img/galerie/image5.jpg" />
+        		<img class="imgStyle" src="img/galerie/image6.jpg" />
+        		<img class="imgStyle" src="img/galerie/image7.jpg" />
+				<img class="imgStyle" src="img/galerie/image8.jpg" />
+				<img class="imgStyle" src="img/galerie/image9.jpg" />
+				<img class="imgStyle" src="img/galerie/image10.jpg" />
+				<img class="imgStyle" src="img/galerie/image11.jpg" />
+				<img class="imgStyle" src="img/galerie/image12.jpg" />
+				<img class="imgStyle" src="img/galerie/image13.jpg" />
+				<img class="imgStyle" src="img/galerie/image14.jpg" />
+				<img class="imgStyle" src="img/galerie/image15.jpg" />
+				<img class="imgStyle" src="img/galerie/image16.jpg" />
+				<img class="imgStyle" src="img/galerie/image17.jpg" />
+				<img class="imgStyle" src="img/galerie/image18.jpg" />
+				<img class="imgStyle" src="img/galerie/image19.jpg" />
+				<img class="imgStyle" src="img/galerie/image20.jpg" />
+				<img class="imgStyle" src="img/galerie/image21.jpg" />
+				<img class="imgStyle" src="img/galerie/image22.jpg" />		
+    		</div>
 		</main>
 		<!--FOOTER-->
 		<footer id="copyright">
-				   <img alt="Propriété de Damien Rosina" style="border-width:0" src="img/logo.png" /></a><br /><span>Ce projet est la réalisation de Damien Rosina</span>
+			<img alt="Propriété de Damien Rosina" style="border-width:0" src="img/logo.png" /></a><br /><span>Ce projet est la réalisation de Damien Rosina</span>
 		</footer>
+		<script src="js/main.js"></script>
     </body>
 </html>
 <?php
