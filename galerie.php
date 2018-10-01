@@ -43,21 +43,21 @@
         		<img class="imgStyle" src="img/galerie/image5.jpg" />
         		<img class="imgStyle" src="img/galerie/image6.jpg" />
         		<img class="imgStyle" src="img/galerie/image7.jpg" />
-				<img class="imgStyle" src="img/galerie/image8.jpg" />
-				<img class="imgStyle" src="img/galerie/image9.jpg" />
-				<img class="imgStyle" src="img/galerie/image10.jpg" />
-				<img class="imgStyle" src="img/galerie/image11.jpg" />
-				<img class="imgStyle" src="img/galerie/image12.jpg" />
-				<img class="imgStyle" src="img/galerie/image13.jpg" />
-				<img class="imgStyle" src="img/galerie/image14.jpg" />
-				<img class="imgStyle" src="img/galerie/image15.jpg" />
-				<img class="imgStyle" src="img/galerie/image16.jpg" />
-				<img class="imgStyle" src="img/galerie/image17.jpg" />
-				<img class="imgStyle" src="img/galerie/image18.jpg" />
-				<img class="imgStyle" src="img/galerie/image19.jpg" />
-				<img class="imgStyle" src="img/galerie/image20.jpg" />
-				<img class="imgStyle" src="img/galerie/image21.jpg" />
-				<img class="imgStyle" src="img/galerie/image22.jpg" />		
+			<img class="imgStyle" src="img/galerie/image8.jpg" />
+			<img class="imgStyle" src="img/galerie/image9.jpg" />
+			<img class="imgStyle" src="img/galerie/image10.jpg" />
+			<img class="imgStyle" src="img/galerie/image11.jpg" />
+			<img class="imgStyle" src="img/galerie/image12.jpg" />
+			<img class="imgStyle" src="img/galerie/image13.jpg" />
+			<img class="imgStyle" src="img/galerie/image14.jpg" />
+			<img class="imgStyle" src="img/galerie/image15.jpg" />
+			<img class="imgStyle" src="img/galerie/image16.jpg" />
+			<img class="imgStyle" src="img/galerie/image17.jpg" />
+			<img class="imgStyle" src="img/galerie/image18.jpg" />
+			<img class="imgStyle" src="img/galerie/image19.jpg" />
+			<img class="imgStyle" src="img/galerie/image20.jpg" />
+			<img class="imgStyle" src="img/galerie/image21.jpg" />
+			<img class="imgStyle" src="img/galerie/image22.jpg" />		
     		</div>
 		</main>
 		<!--FOOTER-->
