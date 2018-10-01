@@ -1,7 +1,6 @@
 <?php
 	session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -38,9 +37,9 @@
     		</nav>
 			   <?php endif ?>
 			</div>
-		</header>
+	</header>
 		<!--MAIN CONTENT-->
-		<main class="container">
+	<main class="container">
 			<section class="categorie1">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum animi, deleniti eligendi recusandae corporis itaque rerum qui. Dolore fugit voluptatum quae animi molestiae provident, tenetur ratione architecto alias atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at ab iure dicta illum unde distinctio voluptatum consequuntur doloribus pariatur, fuga eligendi esse libero exercitationem consequatur et saepe? Aliquam, voluptatum.</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur debitis nobis similique optio porro quos neque nulla recusandae quia, error, voluptas praesentium alias provident adipisci. Facilis perspiciatis natus voluptatibus!</p>
@@ -50,7 +49,7 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum animi, deleniti eligendi recusandae corporis itaque rerum qui. Dolore fugit voluptatum quae animi molestiae provident, tenetur ratione architecto alias atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at ab iure dicta illum unde distinctio voluptatum consequuntur doloribus pariatur, fuga eligendi esse libero exercitationem consequatur et saepe? Aliquam, voluptatum.</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aspernatur debitis nobis similique optio porro quos neque nulla recusandae quia, error, voluptas praesentium alias provident adipisci. Facilis perspiciatis natus voluptatibus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et non totam dolor saepe! Exercitationem blanditiis odio, explicabo illo placeat consequatur eum ab omnis maiores deleniti sapiente labore neque maxime incidunt?</p>
 			</section>
-		</main>
+	</main>
 		<!--FOOTER-->
 		<footer id="copyright">
 				   <img alt="Propriété de Damien Rosina" style="border-width:0" src="img/logo.png" /></a><br /><span>Ce projet est la réalisation de Damien Rosina</span>
