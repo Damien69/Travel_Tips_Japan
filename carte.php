@@ -4,7 +4,6 @@
 	
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Carte</title>
     <meta name="viewport" content="initial-scale=1.0" >
