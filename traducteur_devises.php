@@ -1,7 +1,6 @@
 <?php
 	session_start();
 	?>
-
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -30,8 +29,7 @@
 				</form>
 			</div>
 		</header>
-			<body>
-				<main class='pagetrad'>
+		<main class='pagetrad'>
 			<div id='convertisseur'>
 			<h2>Convertisseur euro-yen</h2>
 				<form name="converter">
@@ -89,8 +87,7 @@
 					?>
 			</div>
 			</form>
-				</main>
-			</body>
+		</main>
 		<!--FOOTER-->
 		<footer id="copyright">
 				   <img alt="Propriété de Damien Rosina" style="border-width:0" src="img/logo.png" /></a><br /><span>Ce projet est la réalisation de Damien Rosina</span>
